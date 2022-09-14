@@ -10,7 +10,7 @@ import time
 options = Options()                             #取消網頁中的彈出視窗
 options.add_argument("--disable-notifications") #避免妨礙網路爬蟲的執行
 
-PATH ="C:/Users/fishd/Desktop/python/chromedriver/chromedriver.exe"  #Chromedriver 位置
+PATH ="C:/Users/User/OneDrive/桌面/python/chromedriver/chromedriver.exe"  #Chromedriver 位置
 driver = webdriver.Chrome(PATH) #選擇瀏覽器
 Web = "https://www.google.com/" #網址
 
